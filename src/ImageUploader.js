@@ -119,8 +119,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  // Firebaseの設定情報をここに追加してください
-  // ...
+  apiKey: "AIzaSyCG99nl_hH_8GvqEpxGmT-Zc6xyVKHJKiI",
+  authDomain: "test-app-9eac0.firebaseapp.com",
+  databaseURL: "https://test-app-9eac0-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "test-app-9eac0",
+  storageBucket: "test-app-9eac0.appspot.com",
+  messagingSenderId: "475645900729",
+  appId: "1:475645900729:web:b6b025376cf9f1f9c1a868"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
